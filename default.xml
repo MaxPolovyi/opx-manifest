@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="opx"           fetch="https://github.com/open-switch"   revision="master"/>
   <remote  name="pkarashchenko" fetch="https://github.com/pkarashchenko" revision="as7512-32x-dev"/>
+  <remote  name="maxpolovyi"    fetch="https://github.com/maxpolovyi"    revision="master"/>
   <default remote="opx" sync-j="4"/>
 
   <!-- The following section is for platform-specific configuration files-->
@@ -52,6 +53,6 @@
   <project path="opx-tmpctl"                             name="opx-tmpctl"/>
   
   <!-- The following section is for build tools and scripts -->
-  <project path="opx-build"                              name="opx-build"                        remote="pkarashchenko"/>
+  <project path="opx-build"                              name="opx-build"                        remote="maxpolovyi"/>
 
 </manifest>
